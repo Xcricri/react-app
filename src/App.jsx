@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <h1 className="font-bold text-2xl">Hello World</h1>
-      <h3 className='font-bold text-xl'>Uji coba</h3>
+      <h4 className='font-bold text-xl'>Uji coba</h4>
     </div>
   )
 }
