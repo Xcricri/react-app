@@ -13,11 +13,15 @@ function Card(){
     
   return(
     <div className="text-center">
+
       <h1 className="py-2">{teks}</h1>
+
       <button onClick={()=> alert('Hallo')} className="py-2">Klik aku</button>
       <br/>
+
       <button onClick={handlClick} className="py-2">Klik aku untuk mengetahui namaku</button>
       <br/>
+
       <button className="py-2" onClick={ubahTeks}>ubah</button>
     </div>
   )
