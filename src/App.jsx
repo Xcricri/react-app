@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Card from '../src/components/hook/useState/Card(2).jsx'
+import Card from '../src/components/api/Card.jsx'
 import './App.css'
 
 function App() {
