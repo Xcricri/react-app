@@ -6,7 +6,7 @@ function Card(){
   const [loading, setLoading] = useState(true)
   
   useEffect(()=>{
-    axios.get('https://api.jikan.moe/v4/top/anime')//mengambil data
+    axios.get('https://api.jikan.moe/v4/anime')//mengambil data
     .then(res=>{//kalau data berhasil diambil
       setData(res.data.data)
       setLoading(false)
@@ -16,7 +16,7 @@ function Card(){
       console.log("Error"+ err)
       setLoading(false)
     })
-  })
+  },[])
   
   if(loading) return <p className="">Loading...</p>
   return(
