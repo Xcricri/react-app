@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Card from '../src/components/api/Card.jsx'
+import Card from '../src/components/api/anime/Card.jsx'
 import './App.css'
 
 function App() {
