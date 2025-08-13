@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react'
-import axios from 'axio'
+import axios from 'axios'
 
 function Card(){
   return(
